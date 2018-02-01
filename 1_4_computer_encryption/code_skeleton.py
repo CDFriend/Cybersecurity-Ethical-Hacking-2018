@@ -1,7 +1,7 @@
 """
 Skeleton code for making encrypted messages with Python.
-:author Charlie Friend
 """
+__author__ = "Charlie Friend"
 
 
 def main():
