@@ -6,7 +6,7 @@ Connects to a server, recieves a message and exits.
 import socket
 
 SERVER_IP = "127.0.0.1"
-SERVER_PORT = 50001
+SERVER_PORT = 50000
 
 
 def main():

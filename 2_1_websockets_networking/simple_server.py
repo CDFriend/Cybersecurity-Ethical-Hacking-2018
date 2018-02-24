@@ -14,7 +14,7 @@ def main():
 
     # Listen on port 50000
     print("Waiting for connections on port 50000...")
-    sock.bind(('', 50001))
+    sock.bind(('', 50000))
     sock.listen()               # lets the socket listen for clients
     conn, addr = sock.accept()  # wait for a client to connect!
 
