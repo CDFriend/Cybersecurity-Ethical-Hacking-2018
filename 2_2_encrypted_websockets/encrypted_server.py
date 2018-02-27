@@ -1,6 +1,8 @@
 """
 Simple Python server program.
-Waits for a client to connect, then sends a message.
+
+Waits for a client to connect, then sends a message. The message will be
+encrypted under a key, so be sure to call decrypt() before printing!
 """
 __author__ = "Charlie Friend"
 

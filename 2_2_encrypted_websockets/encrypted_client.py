@@ -1,7 +1,9 @@
 """
 Simple Python client program.
-Connects to a server, recieves a message and exits.
+
+Receives a message from a server, decrypts it and exits.
 """
+__author__ = "Charlie Friend"
 
 import pyDes
 import socket
