@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    name = request.params["name"]
+    name = request.args.get("name")
     return "Hello " + name + "!"
 
 
