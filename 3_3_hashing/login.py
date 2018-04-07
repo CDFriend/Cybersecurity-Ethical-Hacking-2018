@@ -7,12 +7,11 @@ password is correct!
 __author__ = "Charlie Friend"
 
 import hashlib
-from getpass import getpass
 
 
 def main():
     # Get password from the user
-    password = getpass("Please enter your password: ")
+    password = input("Please enter your password: ")
 
     # Calculate hash of the provided password
     password_bin = password.encode()
