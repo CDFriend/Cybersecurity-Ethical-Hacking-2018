@@ -1,6 +1,9 @@
 """
 Blockchain IOUs
 Simple program demonstrating how a Blockchain can be used to keep track of IOUs.
+
+Activity adapted from Javascript example by Simply Explained - Savjee:
+    https://www.youtube.com/watch?v=zVqczFZr124
 """
 __author__ = "Charlie Friend"
 
