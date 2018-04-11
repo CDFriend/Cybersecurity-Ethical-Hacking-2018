@@ -59,9 +59,8 @@ def check_blockchain(blockchain):
 
 def main():
     # Create blockchain and add genesis block
-    blockchain = []
     genesis = Block("", "", 0)
-    blockchain.append(genesis)
+    blockchain = [genesis]
 
     # Add blocks to the blockchain
     add_block(Block("Charlie", "Katie", 25), blockchain)
