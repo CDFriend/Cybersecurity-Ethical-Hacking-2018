@@ -25,7 +25,7 @@ def main():
         # Try to connect to the port
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            sock.settimeout(0.3)  # time out after 3 seconds
+            sock.settimeout(0.3)  # time out after .3 seconds
 
             sock.connect((host_addr, port_num))
 
